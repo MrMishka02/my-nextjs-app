@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <nav className="bg-blue-600 flex justify-between items-center">
       <img src="" alt="Navbar logo" className="m-4"/>
@@ -19,4 +19,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;
