@@ -1,4 +1,5 @@
-import LandingBody from "./components/LandingBody";
+import { LandingBody } from "./components";
+
 
 export default function Home() {
   return (
