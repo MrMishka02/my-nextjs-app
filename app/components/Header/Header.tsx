@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,12 +17,8 @@ const Header = () => {
   return (
     <header className="bg-black h-24 flex justify-center">
       <div className="flex justify-between items-center h-full w-[60%] lg:w-[90%]">
-        <Link href="/">
-          <img
-            src={logo.src}
-            alt="Navbar logo"
-            className="w-20 m-4 cursor-pointer rounded-full hover:bg-slate-900 sm:w-14"
-          />
+        <Link href="/" className="hover:bg-gray-800 rounded-full">
+          <Image src={logo.src} alt="Navbar logo" width={80} height={80} />
         </Link>
         <ul
           className={
