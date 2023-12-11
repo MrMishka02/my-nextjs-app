@@ -12,7 +12,7 @@ const Footer = () => {
       >
         &#10094;
       </div>
-      <div className="absolute flex justify-center items-center w-[90%] xl:w-[60%]">
+      <div className="absolute flex justify-center items-center sm:w-[90%] w-[60%]">
         <p className="m-4 text-slate-600">
           <a
             href="https://www.linkedin.com/in/mikheil-gogia-848315247/"

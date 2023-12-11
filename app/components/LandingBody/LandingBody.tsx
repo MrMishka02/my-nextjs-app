@@ -1,6 +1,6 @@
 const LandingBody = () => {
-  return <div className="flex justify-center h-[79vh] xl:h-screen">
-    <div className="h-full xl:w-[60%]"></div>
+  return <div className="flex justify-center sm:h-[79vh] h-screen">
+    <div className="sm:h-full w-[60%]"></div>
   </div>;
 };
 
