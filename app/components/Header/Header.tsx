@@ -11,9 +11,9 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    if (window.innerWidth <= 1024) {
+    // if (window.innerWidth <= 1024) {
       setIsOpen(!isOpen);
-    }
+    // }
   };
 
   return (
