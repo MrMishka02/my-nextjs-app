@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+input,
+textarea,
+button,
+select,
+a,
+div,
+image {
+  -webkit-tap-highlight-color: transparent;
+}
