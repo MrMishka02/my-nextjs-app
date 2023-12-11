@@ -1,3 +1,3 @@
 export default () => {
-  return <h1>Projects</h1>;
+  return <div className="h-screen"></div>;
 };
