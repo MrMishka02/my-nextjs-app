@@ -6,7 +6,7 @@ const Footer = () => {
       <div
         className="relative flex items-center pl-4 text-6xl rotate-90 bottom-[2.5rem] h-[6rem] w-[6rem]
       rounded-full bg-gray-200 cursor-pointer select-none hover:-translate-y-1 border-slate-300 border-l-2
-      sm:h-[4rem] sm:w-[4rem] sm:text-4xl sm:bottom-8 sm:pl-3 sm:pb-1"
+      lg:outline-none sm:h-[4rem] sm:w-[4rem] sm:text-4xl sm:bottom-8 sm:pl-3 sm:pb-1"
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
