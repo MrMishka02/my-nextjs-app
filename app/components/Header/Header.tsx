@@ -30,17 +30,17 @@ const Header = () => {
           }
         >
           <li className="m-4 hover:text-gray-400 lg:text-center">
-            <Link href="/" onClick={toggleMenu}>
+            <Link href="/">
               Home
             </Link>
           </li>
           <li className="m-4 hover:text-gray-400 lg:text-center">
-            <Link href="/projects" onClick={toggleMenu}>
+            <Link href="/projects">
               Projects
             </Link>
           </li>
           <li className="m-4 hover:text-gray-400 lg:text-center">
-            <Link href="/about" onClick={toggleMenu}>
+            <Link href="/about">
               About
             </Link>
           </li>
