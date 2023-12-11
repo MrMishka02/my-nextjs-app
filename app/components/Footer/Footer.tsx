@@ -2,10 +2,10 @@
 
 const Footer = () => {
   return (
-    <footer className="flex items-center justify-center bg-gray-300">
+    <div className="flex items-center justify-center h-[5.4rem] bg-gray-200 border-slate-300 border-t-2">
       <div
-        className="relative flex items-center pl-3 text-6xl rotate-90 bottom-[2.5rem] h-[100px] w-[100px]
-      rounded-full bg-gray-300 cursor-pointer select-none hover:-translate-y-1"
+        className="relative flex items-center pl-4 text-6xl rotate-90 bottom-[2.5rem] h-[6rem] w-[6rem]
+      rounded-full bg-gray-200 cursor-pointer select-none hover:-translate-y-1 border-slate-300 border-l-2"
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </p>
       </div>
-    </footer>
+    </div>
   );
 };
 
