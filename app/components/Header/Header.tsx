@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <header className="bg-black h-24 flex justify-center sm:h-16">
-      <div className="flex justify-between items-center h-full w-[60%] lg:w-[90%]">
+      <div className="flex justify-between items-center h-full w-[90%] lg:w-[90%]">
         <Link href="/" className="hover:bg-gray-800 rounded-full sm:w-12">
           <Image src={logo.src} alt="Navbar logo" width={80} height={80} />
         </Link>

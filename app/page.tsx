@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex-col w-full border-t-2 drop-shadow-lg mt-20">
+      <div className="flex-col border-t-2 drop-shadow-lg mt-20">
         <h2 className="text-lg text-cyan-600 mt-10 text-center">
           Create beautiful, functional and responsive websites.
         </h2>
@@ -52,10 +52,16 @@ export default function Home() {
             Projects
           </Link>
         </p>
-        <div className="flex justify-center mt-10 mb-40">
-          <Image src={tablet} alt="Project Photo" width={500} />
-          <Image src={webPhoto} alt="Project Photo" width={700} />
-          <Image src={laptop} alt="Project Photo" width={600} />
+        <div className="flex justify-evenly mt-10 mb-40">
+          <div className="w-[28%] pt-8">
+            <Image src={tablet} alt="Project Photo" />
+          </div>
+          <div className="w-[38%]">
+            <Image src={webPhoto} alt="Project Photo" />
+          </div>
+          <div className="w-[32%] pt-7">
+            <Image src={laptop} alt="Project Photo" />
+          </div>
         </div>
       </div>
     </main>
