@@ -34,3 +34,15 @@ div,
 image {
   -webkit-tap-highlight-color: transparent;
 }
+
+#leftDiv {
+  background-image: url("./assets/images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rightDiv {
+  background-image: url("./assets/images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
