@@ -25,8 +25,8 @@ const Header = () => {
         <ul
           className={
             isOpen
-              ? "flex-col absolute top-[6rem] right-0 w-[12rem] h-[15rem] bg-[#333] sm:top-[4rem]"
-              : "flex justify-center items-center lg:hidden"
+              ? "flex-col absolute top-[6rem] right-0 w-[12rem] h-[15rem] bg-[#333] text-white sm:top-[4rem]"
+              : "flex justify-center items-center text-white lg:hidden"
           }
         >
           <li className="m-4 hover:text-gray-400 lg:text-center">
@@ -67,7 +67,7 @@ const Header = () => {
           className="hidden text-2xl cursor-pointer lg:block"
           onClick={toggleMenu}
         >
-          <FaBars />
+          <FaBars color="white" />
         </div>
       </div>
     </header>
