@@ -18,15 +18,24 @@ export default function Home() {
           sm:flex-col sm:items-center sm:justify-center sm:order-1 sm:w-full"
         >
           <div className="w-[20rem] mr-7 sm:mr-0">
-            <h2 className="text-cyan-600 text-xl sm:text-center sm:text-base">
+            <p
+              className="text-cyan-600 text-xl drop-shadow-[40px_16px_2px_rgba(255,0,255,0.5)]
+            sm:text-center sm:text-base"
+            >
               Hello, My name is
-            </h2>
-            <h1 className="text-white text-4xl mt-10 sm:text-center sm:text-2xl sm:mt-5">
+            </p>
+            <h1
+              className="text-white text-4xl mt-10 drop-shadow-[50px_34px_3px_rgba(255,0,0,0.3)]
+             sm:text-2xl sm:mt-5  sm:text-center"
+            >
               Mikheil Gogia
             </h1>
-            <h2 className="text-green-500 text-2xl mt-10 sm:text-center sm:text-base sm:mt-5">
+            <p
+              className="text-green-500 text-2xl mt-10 drop-shadow-[60px_24px_3px_rgba(255,165,0,0.4)]
+             sm:text-center sm:text-base sm:mt-5"
+            >
               Full-Stack Developer
-            </h2>
+            </p>
           </div>
         </div>
         <div
@@ -44,9 +53,9 @@ export default function Home() {
         </div>
       </div>
       <div className="flex-col border-t-2 drop-shadow-lg mt-20">
-        <h2 className="text-lg text-cyan-600 mt-10 text-center sm:text-base">
+        <p className="text-lg text-cyan-600 mt-10 text-center sm:text-base">
           Create beautiful, functional and responsive websites.
-        </h2>
+        </p>
         <p className="select-none text-center text-cyan-600 mt-4 sm:text-sm">
           For more click:{" "}
           <Link href={"./projects"} className="underline text-blue-600 text-sm">
