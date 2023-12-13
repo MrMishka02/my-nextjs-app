@@ -7,8 +7,8 @@ import pcfy from "../assets/images/pcfy.jpg";
 
 function projects() {
   return (
-    <div className="h-screen bg-gray-200">
-      <h1 className="h-10 w-full pt-20 m-auto text-center text-sky-700 text-4xl font-bold">
+    <div className="h-screen bg-gray-100">
+      <h1 className="h-10 w-full pt-10 m-auto text-center text-sky-700 text-4xl font-bold">
         My Projects
       </h1>
       <div className="m-auto mt-10 w-[90%] flex justify-evenly">
@@ -21,6 +21,7 @@ function projects() {
           cardText="Online shop to buy book with delivery to user's home.
           Was used DOM API, HTML, CSS, Javascript, Json.
           The project was created at an early stage of learning."
+          cardLink="https://mrmishka02.github.io/book-shop/pages/catalog.html"
         />
         <Card
           path={onlineZoo}
@@ -31,6 +32,7 @@ function projects() {
           cardText="Responsive Multipage platform that contains information about animals from various zoos.
           Was used Figma design, PerfectPixel for Google Chrome, HTML, CSS and Javascript.
           The project was created at an early stage of learning."
+          cardLink="https://mrmishka02.github.io/Online-Zoo/pages/petstory/#"
         />
         <Card
           path={pcfy}
@@ -41,6 +43,7 @@ function projects() {
           cardText="Responsive multipage platform in which he describes which employee has been given which laptop.
           We should also be able to describe the details of the laptop as well. Built with ReactJS, Tailwind CSS,
           also was used React Redux and Form Validation."
+          cardLink="https://pcfy-redberry.vercel.app/"
         />
       </div>
     </div>

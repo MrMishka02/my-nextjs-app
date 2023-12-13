@@ -52,7 +52,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex-col border-t-2 drop-shadow-lg mt-20">
+      <div className="flex-col border-t-2 rounded-xl drop-shadow-lg mt-20">
         <p className="text-lg text-cyan-600 mt-10 text-center sm:text-base">
           Create beautiful, functional and responsive websites.
         </p>
