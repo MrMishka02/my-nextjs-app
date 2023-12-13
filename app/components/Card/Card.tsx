@@ -13,9 +13,9 @@ function Card({ path, cardH1, cardText, cardLink }: Props) {
   return (
     <div
       className="w-[24rem] h-[34rem] drop-shadow-md bg-white rounded-lg mt-20 mr-10 mb-10 pt-2
-      hover:opacity-[0.8] duration-300"
+      hover:opacity-[0.8] sm:w-[20rem] sm:mb-0 sm:mr-0"
     >
-      <div className="w-[96%] h-[50%] m-auto">
+      <div className="w-[96%] h-[50%] m-auto sm:h-[40%]">
         <div className="drop-shadow-md border-2 mb-2 rounded-2xl overflow-hidden">
           <Image src={path} alt="Card image" />
         </div>
