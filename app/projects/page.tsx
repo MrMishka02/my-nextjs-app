@@ -12,8 +12,8 @@ function projects() {
         My Projects
       </h1>
       <div
-        className="m-auto mt-10 w-[90%] flex justify-evenly
-        lg:grid lg:justify-center sm:flex-col sm:mt-4 sm:items-center"
+        className="m-auto mt-10 w-[90%] flex justify-evenly flex-wrap
+        lg:flex-wrap lg:justify-center sm:flex-col sm:mt-4 sm:items-center"
       >
         <Card
           path={bookshop}
