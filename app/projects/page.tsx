@@ -8,7 +8,7 @@ import pcfy from "../assets/images/pcfy.jpg";
 
 function projects() {
   return (
-    <div className="h-screen w-full bg-gray-100 lg:h-auto lg:pb-20 sm:h-auto sm:pb-20">
+    <div className="h-auto w-full bg-gray-100 pb-20 lg:h-auto lg:pb-20 sm:h-auto sm:pb-20">
       <h1 className="h-10 w-full pt-10 m-auto text-center text-sky-700 text-4xl font-bold">
         Some of My Projects
       </h1>

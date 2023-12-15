@@ -4,7 +4,7 @@ function about() {
   return (
     <div className="flex justify-center flex-wrap h-auto bg-gray-100">
       <div
-        className="w-[70rem] h-[20rem] flex justify-evenly bg-white mt-10 drop-shadow-lg
+        className="w-[70rem] h-[20rem] flex justify-evenly bg-white mt-10 drop-shadow-xl
       rounded-xl p-4 relative sm:flex-col sm:items-center sm:h-[34rem]"
       >
         <div className="w-[30%] flex items-center justify-center border-2 rounded-xl drop-shadow-lg sm:h-[10%] sm:w-full">
@@ -23,7 +23,7 @@ function about() {
         </div>
       </div>
       <div
-        className="w-[70rem] h-[20rem] flex justify-evenly bg-white mt-10 drop-shadow-lg
+        className="w-[70rem] h-[20rem] flex justify-evenly bg-white mt-10 drop-shadow-xl
       rounded-xl p-4 right-4 sm:flex-col sm:items-center sm:h-[34rem]"
       >
         <div className="w-[30%] flex items-center justify-center border-2 rounded-xl drop-shadow-lg sm:h-[10%] sm:w-full">
@@ -45,7 +45,7 @@ function about() {
       </div>
 
       <div
-        className="w-[70rem] h-[20rem] flex justify-evenly bg-white mt-10 drop-shadow-lg
+        className="w-[70rem] h-[20rem] flex justify-evenly bg-white mt-10 drop-shadow-xl
       rounded-xl p-4 relative sm:flex-col sm:items-center sm:h-[34rem]"
       >
         <div className="w-[30%] flex items-center justify-center border-2 rounded-xl drop-shadow-lg sm:h-[10%] sm:w-full">
@@ -77,7 +77,7 @@ function about() {
         </div>
       </div>
       <div
-        className="w-[70rem] h-[20rem] flex justify-evenly bg-white mt-10 mb-40 drop-shadow-lg
+        className="w-[70rem] h-[20rem] flex justify-evenly bg-white mt-10 mb-40 drop-shadow-xl
       rounded-xl p-4 relative sm:flex-col sm:items-center sm:h-[34rem] sm:mb-20"
       >
         <div className="w-[30%] flex items-center justify-center border-2 rounded-xl drop-shadow-lg sm:h-[10%] sm:w-full">
