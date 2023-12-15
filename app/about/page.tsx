@@ -66,7 +66,8 @@ function about() {
             </li>
             <li className="mb-4">
               <span className="font-bold">
-                Bachelor&#789;s academic Degree with Major in Computer Technologies.
+                Bachelor&#789;s academic Degree with Major in Computer
+                Technologies.
               </span>
               <br />
               Akaki Tsereteli State University, Kutaisi, Georgia
