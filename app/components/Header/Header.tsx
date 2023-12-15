@@ -33,7 +33,7 @@ const Header = () => {
         <ul
           className={
             isOpen
-              ? "flex-col absolute top-[6rem] right-0 w-[12rem] h-[18rem] bg-[#333] text-white sm:top-[4rem]"
+              ? "flex-col absolute top-[6rem] right-0 w-[12rem] h-[18rem] bg-[#333] text-white z-10 sm:top-[4rem]"
               : "flex justify-center items-center text-white lg:hidden"
           }
         >
