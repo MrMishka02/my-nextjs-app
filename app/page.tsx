@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <div
-        className="m-auto flex justify-center items-center h-[40rem]
+        className="m-auto bg-gray-100 flex justify-center items-center h-[40rem]
         border-t-2 border-slate-500 sm:h-[30rem] sm:flex-col"
       >
         <div
