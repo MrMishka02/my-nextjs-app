@@ -20,18 +20,18 @@ function Card({ path, cardH1, cardText, cardLink }: Props) {
           <Image src={path} alt="Card image" />
         </div>
       </div>
-      <div className="h-[50%]">
+      <div className="h-[38%] sm:h-[45%]">
         <h1 className="w-[90%] text-xl font-medium ml-4 mb-4">{cardH1}</h1>
         <p className="w-[90%] ml-4">{cardText}</p>
-        <button
-          className="w-[30%] h-[8%] ml-[35%] rounded-lg bottom-6 absolute bg-gray-700 text-white
-        hover:cursor-pointer hover:bg-gray-500 active:bg-green-700"
-        >
-          <Link href={cardLink} target="_blank">
-            Go to site
-          </Link>
-        </button>
       </div>
+      <button
+        className="w-[30%] h-[8%] ml-[35%] rounded-lg bg-gray-700 text-white
+        hover:cursor-pointer hover:bg-gray-500 active:bg-green-700"
+      >
+        <Link href={cardLink} target="_blank">
+          Go to site
+        </Link>
+      </button>
     </div>
   );
 }
