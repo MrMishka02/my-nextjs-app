@@ -19,7 +19,7 @@ const Header = () => {
   };
   const saveFile = () => {
     saveAs(
-      "https://public.db.files.1drv.com/y4myOMxzBRgfOAtSgeTzOBFSTKjbHuH6HfvktXBKpTbnffU4elYYZm50pLRZ6Jg8Pykn8ofGOnEUkiG59-RY11qYwQzxtx605am3MpO1hJM4q2puS8BtSN998l2Jy8A2GE4VUuj9yxp7L5DV3DqbYy20Gx8G94fCAXnheRyyJsuBiHU0_rdvNKGDdK1srLLh-Y_bAGmvazXlmKUViPDNgeo9W2OEVs-xRSuIZXsxFopxYQ?AVOverride=1",
+      "https://1drv.ms/b/s!Auuwj7M0nVDUmiKHoSjch-udhUAe?e=RiYcXC",
       "Mikheil Gogia - CV.pdf"
     );
   };
