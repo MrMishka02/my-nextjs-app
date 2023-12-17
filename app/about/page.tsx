@@ -66,7 +66,7 @@ function about() {
             </li>
             <li className="mb-4">
               <span className="font-bold">
-                Bachelor's academic Degree with Major in Computer
+                Bachelor&#39;s academic Degree with Major in Computer
                 Technologies.
               </span>
               <br />
