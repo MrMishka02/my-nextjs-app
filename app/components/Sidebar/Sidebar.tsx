@@ -1,12 +1,39 @@
-import { FaBars } from "react-icons/fa";
+"use client"
+import { useState } from "react";
+import { Links, ToggleButton } from "..";
+import { motion } from "framer-motion";
 
 function Sidebar() {
+  const [open, setOpen] = useState(false);
+
+  const variants = {
+    open: {
+      clipPath: "circle"
+    },
+    closed: {
+      clipPath: "circle(30px at 50px 50px)",
+      transition: {
+        delay: 0.5,
+        type: "spring",
+        stiffness: 400,
+        damping: 40,
+      },
+    },
+  };
+
   return (
-    <div className="w-[20%] pl-8 flex justify-start items-center text-2xl cursor-pointer lg:block">
-      <div className="w-[3rem] h-[3rem] flex items-center justify-center rounded-full bg-white">
-        <FaBars color="" />
-      </div>
-    </div>
+    <motion.div
+      className="flex flex-col items-center justify-center bg-white text-black"
+      animate={open ? "open" : "closed"}
+    >
+      <motion.div
+        className="fixed top-0 left-0 w-[25rem] bg-white"
+        variants={variants}
+      >
+        <Links />
+      </motion.div>
+      <ToggleButton setOpen={setOpen} />
+    </motion.div>
   );
 }
 
