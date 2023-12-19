@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { Links, ToggleButton } from "..";
 import { motion } from "framer-motion";
@@ -8,7 +8,11 @@ function Sidebar() {
 
   const variants = {
     open: {
-      clipPath: "circle"
+      clipPath: "circle(1200px at 50px 50px)",
+      transition: {
+        type: "spring",
+        stiffness: 20,
+      },
     },
     closed: {
       clipPath: "circle(30px at 50px 50px)",
@@ -27,7 +31,7 @@ function Sidebar() {
       animate={open ? "open" : "closed"}
     >
       <motion.div
-        className="fixed top-0 left-0 w-[25rem] bg-white"
+        className="fixed top-0 left-0 bottom-0 w-[25rem] bg-white"
         variants={variants}
       >
         <Links />
