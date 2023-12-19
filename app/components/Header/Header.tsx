@@ -11,6 +11,11 @@ import { faCircleDown } from "@fortawesome/free-regular-svg-icons";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showText, setShowText] = useState(false);
+
+  const showDownloadCV = () => {
+    setShowText(!showText);
+  };
 
   const toggleMenu = () => {
     if (window.innerWidth <= 1024) {
@@ -57,7 +62,7 @@ const Header = () => {
               href="https://github.com/MrMishka02"
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer w-[30%] ml-14 mr-2 lg:ml-0 lg:mr-0 lg:text-center"
+              className="cursor-pointer w-[30%] ml-14 mr-8 lg:ml-0 lg:mr-0 lg:text-center"
             >
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
@@ -65,22 +70,27 @@ const Header = () => {
               href="https://www.linkedin.com/in/mikheil-gogia-848315247/"
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer w-[30%] lg:mt-4 lg:text-center"
+              className="cursor-pointer w-[30%] mr-8 lg:mt-4 lg:text-center"
             >
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
-            <button
-              className="cursor-pointer text-xs w-40 mr-8
+            <a
+              className="cursor-pointer w-[40%] mr-8 text-center
               lg:mt-4 lg:mr-0 lg:flex lg:justify-center lg:items-center"
               onClick={saveFile}
+              onMouseLeave={showDownloadCV}
             >
-              DOWNLOAD CV
-              <FontAwesomeIcon
-                icon={faCircleDown}
-                size="2x"
-                className="pt-1 lg:pl-2 lg:pt-0"
-              />
-            </button>
+              {showText ? (
+                "DOWNLOAD CV"
+              ) : (
+                <FontAwesomeIcon
+                  icon={faCircleDown}
+                  size="2x"
+                  className="hover:hidden"
+                  onMouseEnter={showDownloadCV}
+                />
+              )}
+            </a>
           </div>
         </ul>
         <div
