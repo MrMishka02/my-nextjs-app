@@ -74,7 +74,6 @@ const Header = () => {
               lg:mt-4 lg:mr-0 lg:flex lg:justify-center lg:items-center"
               onClick={saveFile}
             >
-              DOWNLOAD CV
               <FontAwesomeIcon
                 icon={faCircleDown}
                 size="2x"
