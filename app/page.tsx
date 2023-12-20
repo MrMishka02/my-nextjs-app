@@ -9,7 +9,7 @@ import { Header } from "./components";
 export default function Home() {
   return (
     <main className="bg-[#0c0c1d] select-none">
-      <section className="h-screen">
+      <section className="h-screen" id="Homepage">
         <Header />
         <div className="flex items-center justify-center h-screen">
           <div className="w-[50%] h-full sm:mr-0">
@@ -33,7 +33,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex-col">
+      <section className="flex-col" id="Projects">
         <p className="text-lg text-cyan-600 text-center sm:text-base">
           Create beautiful, functional and responsive websites.
         </p>
