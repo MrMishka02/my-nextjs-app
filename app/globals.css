@@ -11,9 +11,19 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 255, 255, 255;
-    --background-end-rgb: 255, 255, 255;
+    --background-start-rgb: #0c0c1d;
+    --background-end-rgb: #0c0c1d;
   }
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
 }
 
 body {
@@ -33,16 +43,4 @@ a,
 div,
 image {
   -webkit-tap-highlight-color: transparent;
-}
-
-#leftDiv {
-  background-image: url("./assets/images/bg1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#rightDiv {
-  background-image: url("./assets/images/bg2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
