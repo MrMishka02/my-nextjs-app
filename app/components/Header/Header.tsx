@@ -3,20 +3,19 @@ import Link from "next/link";
 import Image from "next/image";
 import { saveAs } from "file-saver";
 import { useState } from "react";
-import { FaBars } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import logo from "../../assets/logo/logo.png";
 import { faCircleDown } from "@fortawesome/free-regular-svg-icons";
+import { Sidebar } from "..";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [showText, setShowText] = useState(false);
 
-  const toggleMenu = () => {
-    if (window.innerWidth <= 1024) {
-      setIsOpen(!isOpen);
-    }
+  const showDownloadCV = () => {
+    setShowText(!showText);
   };
+
   const saveFile = () => {
     saveAs(
       "https://1drv.ms/b/s!Auuwj7M0nVDUmiKHoSjch-udhUAe?e=RiYcXC",
@@ -78,14 +77,8 @@ const Header = () => {
                 icon={faCircleDown}
                 size="2x"
               />
-            </button>
-          </div>
-        </ul>
-        <div
-          className="hidden text-2xl cursor-pointer lg:block"
-          onClick={toggleMenu}
-        >
-          <FaBars color="white" />
+            )}
+          </a>
         </div>
       </div>
     </header>
